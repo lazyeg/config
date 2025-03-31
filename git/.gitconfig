@@ -1,0 +1,10 @@
+#[user]
+#    name = michael.hung
+#	email = hon0612@gmail.com
+
+[includeIf "gitdir:/Users/michael.hung/Downloads/02_git/bitbucket/"]
+    path = /Users/michael.hung/.gitconfig-bitbucket
+[includeIf "gitdir:/Users/michael.hung/"]
+    path = /Users/michael.hung/.gitconfig-github
+[includeif "gitdir:~/Downloads/02_git/bitbucket/"]
+	path = /Users/michael.hung/.gitconfig-bitbucket
